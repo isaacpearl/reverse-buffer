@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import FileInput from '../FileInput/FileInput.js';
+import TextInput from '../TextInput/TextInput.js';
 
 class App extends Component {
 	constructor(props) {
@@ -64,6 +65,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<TextInput/>
 				<FileInput/>
 			</div>
 		);
